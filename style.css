@@ -33,7 +33,10 @@ body {
   height: 303px;
   display: flex;
   flex-direction: column;
-  margin-right: 35px;
+}
+
+.swiper-wrapper {
+  gap: 35px;
 }
 
 .mainCardbox {
@@ -182,6 +185,20 @@ body {
   width: 160px;
   height: 80px;
   border-radius: 12px;
-  overflow: hidden;
+}
+
+.brand--img {
+  width: 160px;
+  height: 80px;
   background: rgba(111, 111, 111, 0.082);
+  border-radius: 12px;
+}
+
+.oldPrice {
+  text-decoration: line-through; /* ძველი ფასის გადახაზვა */
+  color: gray; /* ძველი ფასის ფერი */
+}
+
+.salePrice {
+  color: red; /* ახალი ფასის ფერი */
 }

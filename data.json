@@ -9575,7 +9575,7 @@
           "hasDiscount": false,
           "isFavorite": false,
           "preSalePrice": null,
-          "onSale": false,
+          "onSale": true,
           "isInCart": false,
           "bundleIsInCart": false,
           "isBooked": false,
